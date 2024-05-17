@@ -16,9 +16,9 @@ from resnet import *
 # clip_model, preprocess = clip.load("ViT-B/32", device=device, jit=False)
 # clip_model=clip_model.train()
 net = ResNet50()
-class resnet_decoder(nn.Module):
+class resnet(nn.Module):
     def __init__(self):
-        super(resnet_decoder, self).__init__()
+        super(resnet, self).__init__()
         #self.clip=clip_model
         #self.swin = model
         # self.text_encoder=caption_encoder()
