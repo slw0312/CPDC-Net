@@ -19,9 +19,9 @@ model = VisionTransformer()
 
 # 去除最后一层
 #model = nn.Sequential(*list(model.children())[:-1])
-class resnet_decoder(nn.Module):
+class vit(nn.Module):
     def __init__(self):
-        super(resnet_decoder, self).__init__()
+        super(vit, self).__init__()
         #self.clip=clip_model
         #self.swin = model
         # self.text_encoder=caption_encoder()
