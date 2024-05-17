@@ -1,13 +1,3 @@
-#!/usr/bin/env python
-# |**********************************************************************;
-# Project           : Textual Explanations for Automated Commentary Driving
-#
-# Author            : Marc Alexander Kühn, Daniel Omeiza and Lars Kunze
-#
-# References        : This code is based on the publication and code by Kim et al. [1]
-# [1] J. Kim, A. Rohrbach, T. Darrell, J. Canny, and Z. Akata. Textual explanations for self-driving vehicles. In Computer Vision – ECCV 2018, pages 577–593. Springer International Publishing, 2018. doi:10.1007/978-3-030-01216-8_35.
-# |**********************************************************************;
-
 import  os
 import  h5py
 from    src.config_VA      import  *
